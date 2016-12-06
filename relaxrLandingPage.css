@@ -1,6 +1,8 @@
 body {
 	margin: 0px;
 	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.4;
 }
 
 header{
@@ -19,7 +21,7 @@ header h1{
 	padding-left: 30px;
 	color: white;
 	font-size: 24px;
-	font-weight: bolder; /*这个为什么不能显示？*/
+	font-weight: 600; /*这个为什么不能显示？*/
 }
 
 header h2 {
@@ -28,7 +30,7 @@ header h2 {
 	padding-bottom: 30px;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 24px;/*这个为什么不能显示？*/
+	font-weight: 400;/*这个为什么不能显示？*/
 }
 
 button {
@@ -43,6 +45,8 @@ button {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	font-weight: 900;
+	border-style: none;
+
 }
 
 .benefits h2{
@@ -65,6 +69,7 @@ p {
 	color:#606161;
 	font-size: 13px;
 	margin-bottom: 0px;
+	font-weight: 300;
 }
 
 section ul {
@@ -92,13 +97,13 @@ blockquote {
 	padding: 70px 180px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
-	font-weight: lighter;
-	font-style: italic; /*这个不能调细一点啊?*/
+	font-weight: 300;
+	font-style: italic; 
 	
 }
 
 section blockquote em {
-	font-weight: bold;
+	font-weight: 600;
 	font-style: normal;
 
 }
